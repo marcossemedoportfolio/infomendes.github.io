@@ -1,0 +1,199 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin: 0 0 60px;
+	font-family: 'Kanit', sans-serif;
+}
+
+header {
+	background: url(footer.jpg);
+	padding: 30px 0;
+
+}
+
+.logo {
+	width: 250px;
+	position: relative;
+	margin: 0 auto;
+	padding: 20px 0;
+	right: 100px;
+	
+	
+}
+
+.partedecima {
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 150px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+
+}
+
+nav a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+
+nav a {
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+
+}
+
+.lista {
+	position: 
+}
+
+main {
+	width: 1700px;
+	margin: 0 auto;
+}
+
+footer {
+	background: url("footer.jpg");
+	bottom: 0;
+  	left: 0;
+  	height: 160px;
+  	position: fixed;
+  	width: 100%;
+  	text-align: center;
+}
+
+.logofooter {
+	position: relative;
+	width: 250px;
+	margin: 0 auto;
+}
+
+.copyright {
+	position: absolute;
+	color: black;
+	font-size: 13px;
+	margin: 0px;
+	text-align: center;
+	right: 46%;
+}
+
+form {
+	margin: 30px 0;
+}
+
+form label, legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+fieldset label {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}	
+
+.checkbox {
+	margin: 20px 0;
+	font-size: 20px;
+}
+
+.enviar {
+	margin: 50px auto;
+	display: block;
+	width: 40%;
+	padding: 15px 0;
+	background: #5882FA;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s background;
+}
+
+.enviar:hover {
+	background: #0040FF;
+}
+
+.listaservicos {
+	position: relative;
+	text-align: left;
+	font-size: 20px;
+	padding: 10px;
+	line-height: 80px;
+	animation-duration: 2s;
+	animation-name: slidedown;
+}
+
+
+.imgmanutencao {
+	width: 20%;
+	float: right;
+
+}
+
+.divimg {
+	
+	position: relative;
+	clear: right;
+	bottom: 595px;
+	right: 50px;
+	animation-name: slidedownimg;
+	animation-duration: 2s
+
+
+}	
+
+div.body-content{
+	 margin-bottom: 150px;
+}
+
+
+@keyframes slidedown {
+  from {
+    margin-left: 110%;
+    width: 300%
+  }
+
+  to {
+	margin-left: 0px;
+    width: 100%;
+  }
+}
+
+@keyframes slidedownimg {
+  from {
+    right: 200%;
+   	
+   
+  }
+
+  to {
+    right: 50px;
+ 	
+  }
+}
